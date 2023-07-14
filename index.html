@@ -47,6 +47,7 @@
         var div = document.createElement('div');
         div.innerHTML = msg;
         warningBanner.appendChild(div);
+        /*
         if (type == 'error') div.style = 'background: red; padding: 10px;';
         else {
           if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
@@ -55,19 +56,20 @@
             updateBannerVisibility();
           }, 5000);
         }
+        */
         updateBannerVisibility();
       }
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/e6a1c0d4ae330f6219de52a82105bcda.data",
-        frameworkUrl: buildUrl + "/739c29e6c83967b9b6227eba49fa5567.js",
-        codeUrl: buildUrl + "/2515a2080a3e0f65d26889779242f020.wasm",
+        dataUrl: buildUrl + "/467e204609c8ce4be4ab1c0a2c5fc6cf.data",
+        frameworkUrl: buildUrl + "/d5b2978672895d667229f6535f999d09.js",
+        codeUrl: buildUrl + "/b4761e6147b29d1630480421d61ddf70.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Haite",
         productName: "WebGLDemo",
-        productVersion: "1.0.22",
+        productVersion: "1.0.23",
         showBanner: unityShowBanner,
       };
 
